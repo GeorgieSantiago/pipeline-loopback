@@ -1,0 +1,29 @@
+{
+  "name": "Inventory",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "item_name": {
+      "type": "string",
+      "required": true
+    },
+    "item_qty": {
+      "type": "number"
+    },
+    "created_at": {
+      "type": "date",
+      "required": true
+    },
+    "created_by": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

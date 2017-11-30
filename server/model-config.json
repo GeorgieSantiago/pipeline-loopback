@@ -1,0 +1,42 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "db"
+  },
+  "AccessToken": {
+    "dataSource": "db",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "db",
+    "public": false
+  },
+  "Note": {
+    "dataSource": "db"
+  },
+  "Users": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Inventory": {
+    "dataSource": "db",
+    "public": true
+  },
+  "app_user": {
+    "dataSource": "db",
+    "public": true
+  }
+}
