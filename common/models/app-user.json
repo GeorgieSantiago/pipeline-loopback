@@ -1,5 +1,5 @@
 {
-  "name": "app_user",
+  "name": "appuser",
   "plural": "yes",
   "base": "PersistedModel",
   "idInjection": true,

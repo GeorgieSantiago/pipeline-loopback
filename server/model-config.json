@@ -35,7 +35,7 @@
     "dataSource": "db",
     "public": true
   },
-  "app_user": {
+  "appuser": {
     "dataSource": "db",
     "public": true
   }
